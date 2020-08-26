@@ -1,0 +1,59 @@
+--- 
+title: "Curso Pandas 1.x en español"
+author: "Kevin Farinango (Asuskf)"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "Libro de apoyo para el curso Pandas-1.x en español."
+---
+
+# Introducción
+
+Pandas es una librería para creación y manipulación de datos con Python. Está librería manipula datos tabulares en filas y columnas cómo encontrarías en una base de datos o en una hoja de cálculo. Pandas es aprovechado por: **Científicos de datos, analistas, programadores, ingenieros que lo usan para moldear sus datos**.
+
+Pandas se limita a **"datos pequeños"** (datos que pueden caber en la memoria de una sola máquina). Sin embargo, la sintaxis y las operaciones se han adoptado o inspirado a otros proyectos: PySpark, Dask, Modin, cuDF, Baloo, Dexplo, Tabel, StaticFrame, entre otros. 
+
+## Para quién es esta guia
+
+Esta guía fue pensada en principiantes de habla hispana que estén empezando en el mundo de la ciencia de datos. Esta guía tiene la intención de dotar al principiante de los conocimientos necesarios para manipular y analizar sus datos con una herramienta potente y de fácil uso como es Pandas.
+
+La presente guía tiene más de 50 ejercicios que van de básico a intermedio con los cuales el lector podrá poner en práctica e interiorizar lo aprendido. Para mejor comprensión cada ejercicio se detalla pasos a paso.
+
+## Qué cubre esta guía
+* **Capítulo 1, Introducción:** Decripción de lo que tiene el libro y para quien va dirigido.
+
+* **Capítulo 2, Fundamentos de Pandas:** Presenta la anatomía y el vocabulario utilizado para identificar las dos estructuras de datos principales de pandas, la Serie y el DataFrame con sus respectivos métodos.
+
+* **Capítulo 3, Operaciones esenciales enun Dataframe:** Se centra en las operaciones comunes que se realizan durante el análisis de datos.
+
+* **Capítulo 4, Importación y creación de Dataframes:** Analiza las diversas formas de importar datos y crea DataFrames.
+
+* **Capítulo 5, Empezando con la ciencia de datos:** Presenta técnicas de análisis básicas que sirven para comparar números y datos categóricos. Este capítulo también demostrará técnicas de visualización comunes.
+
+* **Capítulo 6, Trabajando con subconjuntos:** Cubre las muchas formas variadas y potencialmente confusas de seleccionar diferentes subconjuntos de datos.
+
+* **Capítulo 7, Filtrando los subconjutnos:** Explica varias formas de cómo seleccionar diferentes subconjuntos de datos.
+
+* **Capítulo 8, Consultas booleanas:** Consultas basadas en condiciones booleanas 
+
+* **Capítulo 9, el uso de index en Pandas:** El uso correcto de index para evitar resultados erróneos.
+
+* **Capítulo 10, Agrupación:** Presenta métodos de agrupación y la construcción de funciones personalizadas para aplicar a diferentes grupos
+
+* **Capítulo 11, Ordenando el dataframe:** Explica qué son los datos ordenados, por qué son tan importantes y que métodos pueden ser usados para transformar conjuntos de datos desordenados en ordenados.
+
+* **Capítulo 12, Combinando objetos Pandas:** Presenta varios métodos para combinar DataFrames y Series vertical u horizontalmente.  
+
+* **Capítulo 13, Trabajando con las series de tiempo:** Presenta distintos métodos para trabajar con las series de tiempo en cualquier dimensión de tiempo posible
+
+* **Capítulo 14, Visualización de datos:** Tips para crear visualizaciones estéticamente agradables usando: Pandas, Seaborn y Matplotlib
+
+* **Capítulo 15, Test del dataframe:**Explora los mecanismos de test de los DataFrames y los resultados que presenta Pandas.
+
+
+
+
+
