@@ -1,3 +1,0 @@
-# Explorando el Dataframe
-
-We have finished a nice book.

@@ -1,0 +1,26 @@
+# Fundamentos de Pandas {#intro}
+
+El objetivo de este capítulo es dar una introducción detallada de los fundamentos de Pandas y la diferencia entre **Series y Dataframes**. La librería de Pandas es útil para trabajar con datos estructurados. *¿Pero qué son los datos estructurados?* Los datos estructurados son datos que se almacenan en tablas como pueden ser archivos CSV, XLSX (hojas de cálculos de Excel) o tablas de una base de datos. 
+
+En este capítulo aprenderás a seleccionar una sola columna de datos de un Dataframe (conjunto de datos bidimensionales) que se devuelve como un conjunto de datos unidimensional también conocidos como series. Trabajar con este objeto unidimensional facilita cómo funcionan los diferentes métodos y operaciones. Varios métodos de Serie retornan una serie como salida. Esto conduce a la posibilidad de llamar a más métodos lo que se conoce como **encadenamiento de métodos** (ejecutar un método tras otro ).
+
+El index del Dataframe y de las series es lo que separa a Pandas de otras librerías de análisis de datos. El index es un poderoso objeto que se emplea como una etiqueta para los valores de serie. Entender este objeto es clave para comprender cómo funcionan los métodos.
+
+Antes de empezar la presenta guía no necesita instalación de ningun tipo. En este caso usaremos [Colab](https://colab.research.google.com/notebooks/intro.ipynb#recent=true)
+
+## Qué es Colab
+Colaboratory, o Colab es un entorno de desarrollo que google a puesto para el uso del público en general. Este entorno es basado en jupyter notebook el cual permite escribir y ejecutar código de Python en un navegador: Sin configuración requerida, con acceso gratuito a GPU/TPU y con gran facilidad para compartir
+
+###  Qué es la GPU
+
+La GPU es una unidad de procesamiento de Gráficos que tienen la capacidad de hacer varias tareas de forma simultánea, ya que las imágenes en HD no dejan de ser la unión de matrices de datos[@DescripcionGPU]. La CPU realiza cálculos de forma secuencial, es decir, uno a la vez. Es posible incrementar núcleos adicionales para que pueda llevar a cabo dos, cuatro, ocho, dieciséis o más operaciones a la vez. Pero estos núcleos adicionales aumentan el precio de forma exponencial.
+
+###  Qué es la TPU
+
+Una unidad de procesamiento **tensorial** o TPU (del inglés tensor processing unit) es un circuito integrado de aplicación específica y acelerador de IA  desarrollado por Google para el aprendizaje automático con redes neuronales artificiales y más específicamente optimizado para usar TensorFlow[@DescripcionTPU]. La TPU es entre 25 y 80 veces más eficiente para la realización de cálculos que las unidades de procesamiento normal (CPU y GPU).
+
+
+###  Video presentación Colab
+
+El video se subira el 07 sep 2020 
+

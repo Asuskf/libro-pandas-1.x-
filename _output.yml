@@ -5,8 +5,8 @@ bookdown::gitbook:
       before: |
         <li><a href="./">Curso Pandas-1.x en español</a></li>
       after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    download: ["pdf", "epub"]
+        <li><a href="https://github.com/Asuskf/Curso-pandas-1.x-en-espa-ol" target="blank">Repositorio del curso</a></li>
+    
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
