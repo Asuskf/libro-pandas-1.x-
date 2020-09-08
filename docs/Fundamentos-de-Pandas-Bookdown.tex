@@ -73,7 +73,7 @@
 
 \title{Pandas 1.x en español}
 \author{Kevin Farinango (Asuskf)}
-\date{2020-09-02}
+\date{2020-09-08}
 
 \begin{document}
 \maketitle
@@ -85,14 +85,14 @@
 \hypertarget{introducciuxf3n}{%
 \chapter{Introducción}\label{introducciuxf3n}}
 
-Pandas es una librería para creación y manipulación de datos con Python. Está librería manipula datos tabulares en filas y columnas cómo encontrarías en una base de datos o en una hoja de cálculo. Pandas es aprovechado por: \textbf{Científicos de datos, analistas, programadores, ingenieros} que lo usan para modelar sus datos.
+Pandas es una librería usanda en la creación y manipulación de datos con Python. Es empleada para manipular información tabular (filas y columnas) cómo encontrarías en una base de datos o en una hoja de cálculo, es aprovechado por \textbf{Científicos de datos, analistas, programadores, ingenieros} que lo usan en el modelado de datos.
 
-Pandas se limita a \textbf{``datos pequeños''} (datos que pueden caber en la memoria de una sola máquina). Sin embargo, la sintaxis y las operaciones se han adoptado o inspirado a otros proyectos: PySpark, Dask, Modin, cuDF, Baloo, Dexplo, Tabel, StaticFrame, entre otros.
+Pandas se limita a \textbf{``datos pequeños''} (datos que pueden caber en la memoria de una sola máquina). Sin embargo, la sintaxis y las operaciones se han adoptado o inspirado a otros proyectos: PySpark, Dask, Modin, cuDF, Baloo, Dexplo, Tabel, StaticFrame, etc.
 
 \hypertarget{para-quiuxe9n-es-esta-guia}{%
 \section{Para quién es esta guia}\label{para-quiuxe9n-es-esta-guia}}
 
-Esta guía fue pensada en principiantes de habla hispana que estén empezando en el mundo de la ciencia de datos. El presente libro tiene la intención de dotar al principiante de los conocimientos necesarios para manipular y analizar sus datos con una herramienta potente y de fácil uso como es Pandas.
+Esta guía fue pensada en principiantes de habla hispana que estén empezando en el mundo de la ciencia de datos. El presente libro tiene la intención de dotar al principiante de los conocimientos necesarios para manipular y analizar datos con una herramienta potente y de fácil uso como es Pandas.
 
 La presente guía tiene más de 50 ejercicios que van de básico a intermedio con los cuales el lector podrá poner en práctica e interiorizar lo aprendido. Para una mejor comprensión cada ejercicio se detalla pasos a paso.
 
@@ -101,47 +101,51 @@ La presente guía tiene más de 50 ejercicios que van de básico a intermedio co
 
 \begin{itemize}
 \item
-  \textbf{Capítulo 1, Introducción:} Descripción de lo que tiene el libro y para quien va dirigido.
+  \textbf{Capítulo 1. Introducción:} Descripción de lo que tiene el libro y para quien va dirigido.
 \item
-  \textbf{Capítulo 2, Fundamentos de Pandas:} Presenta la anatomía y el vocabulario utilizado para identificar las dos estructuras de datos principales de Pandas, la Serie y el DataFrame con sus respectivos métodos.
+  \textbf{Capítulo 2. Fundamentos de Pandas:} Presenta la anatomía y el vocabulario utilizado para identificar las dos estructuras de datos principales de Pandas, la Serie y el DataFrame con sus respectivos métodos.
 \item
-  \textbf{Capítulo 3, Operaciones esenciales en un Dataframe:} Se centra en las operaciones comunes que se realizan durante el análisis de datos.
+  \textbf{Capítulo 3. Funciones esenciales en un Dataframe:} Se centra en las operaciones comunes que se realizan durante el análisis de datos.
 \item
-  \textbf{Capítulo 4, Importación y creación de Dataframes:} Analiza las diversas formas de importar datos y crea DataFrames.
+  \textbf{Capítulo 4. Importación y creación de Dataframes:} Analiza las diversas formas de importar datos y crea DataFrames.
 \item
-  \textbf{Capítulo 5, Empezando con la ciencia de datos:} Presenta técnicas de análisis básicas que sirven para comparar números y datos categóricos. Este capítulo también demostrará técnicas de visualización comunes.
+  \textbf{Capítulo 5. Empezando con la ciencia de datos:} Presenta técnicas de análisis básicas que sirven para comparar números y datos categóricos.
 \item
-  \textbf{Capítulo 6, Trabajando con subconjuntos:} Cubre las muchas formas variadas y potencialmente confusas de seleccionar diferentes subconjuntos de datos.
+  \textbf{Capítulo 6. Trabajando con subconjuntos:} Cubre las muchas formas variadas y potencialmente confusas de seleccionar diferentes subconjuntos de datos.
 \item
-  \textbf{Capítulo 7, Filtrando los subconjuntos:} Explica varias formas de cómo seleccionar diferentes subconjuntos de datos.
+  \textbf{Capítulo 7. Filtrando los subconjuntos:} Explica varias formas de cómo seleccionar diferentes subconjuntos de datos.
 \item
-  \textbf{Capítulo 8, Consultas booleanas:} Consultas basadas en condiciones booleanas
+  \textbf{Capítulo 8. Consultas booleanas}
 \item
-  \textbf{Capítulo 9, el uso de index en Pandas:} El uso correcto de index para evitar resultados erróneos.
+  \textbf{Capítulo 9. el uso de index en Pandas:} El uso correcto de index para evitar resultados erróneos.
 \item
-  \textbf{Capítulo 10, Agrupación:} Presenta métodos de agrupación y la construcción de funciones personalizadas para aplicar a diferentes grupos
+  \textbf{Capítulo 10. Agrupación:} Presenta métodos de agrupación y la construcción de funciones personalizadas para aplicar a diferentes grupos
 \item
-  \textbf{Capítulo 11, Ordenando el Dataframe:} Explica qué son los datos ordenados, por qué son tan importantes y que métodos pueden ser usados para transformar conjuntos de datos desordenados en ordenados.
+  \textbf{Capítulo 11. Ordenando el Dataframe:} Explica qué son los datos ordenados, por qué son tan importantes y que métodos pueden ser utilizados
 \item
-  \textbf{Capítulo 12, Combinando objetos Pandas:} Presenta varios métodos para combinar DataFrames y Series vertical u horizontalmente.
+  \textbf{Capítulo 12. Combinando objetos Pandas:} Presenta varios métodos para combinar DataFrames y Series vertical u horizontalmente.
 \item
-  \textbf{Capítulo 13, Trabajando con las series de tiempo:} Presenta distintos métodos para trabajar con las series de tiempo en cualquier dimensión de tiempo posible
+  \textbf{Capítulo 13. Trabajando con las series de tiempo:} Presenta distintos métodos para trabajar con las series temporales en cualquier dimensión de tiempo posible
 \item
-  \textbf{Capítulo 14, Visualización de datos:} Tips para crear visualizaciones estéticamente agradables usando: Pandas, Seaborn y Matplotlib
+  \textbf{Capítulo 14. Visualización de datos:} Tips para crear visualizaciones estéticamente agradables usando: Pandas, Seaborn y Matplotlib
 \item
-  \textbf{Capítulo 15, Test del Dataframe:}Explora los mecanismos de test de los DataFrames y los resultados que presenta Pandas.
+  \textbf{Capítulo 15. Test del Dataframe:}Explora los mecanismos de test de los DataFrames y los resultados que presenta Pandas.
 \end{itemize}
 
 \hypertarget{intro}{%
 \chapter{Fundamentos de Pandas}\label{intro}}
 
-El objetivo de este capítulo es dar una introducción detallada de los fundamentos de Pandas y la diferencia entre \textbf{Series y Dataframes}. La librería de Pandas es útil para trabajar con datos estructurados. \emph{¿Pero qué son los datos estructurados?} Los datos estructurados son datos que se almacenan en tablas como pueden ser archivos CSV, XLSX (hojas de cálculos de Excel) o tablas de una base de datos.
+El objetivo de este capítulo es dar una introducción detallada de los fundamentos de Pandas y la diferencia entre \textbf{Series y Dataframes}. Esta librería es útil para trabajar con datos estructurados.
+
+\textbf{¿Pero qué son los datos estructurados?}
+
+Los datos estructurados son datos que se almacenan en tablas (filas y columnas) como pueden ser archivos CSV, XLSX (hojas de cálculos de Excel) o la tabla de una base de datos.
 
 En este capítulo aprenderás a seleccionar una sola columna de datos de un Dataframe (conjunto de datos bidimensionales) que se devuelve como un conjunto de datos unidimensional también conocidos como series. Trabajar con este objeto unidimensional facilita cómo funcionan los diferentes métodos y operaciones. Varios métodos de Serie retornan una serie como salida. Esto conduce a la posibilidad de llamar a más métodos lo que se conoce como \textbf{encadenamiento de métodos} (ejecutar un método tras otro ).
 
 El index del Dataframe y de las series es lo que separa a Pandas de otras librerías de análisis de datos. El index es un poderoso objeto que se emplea como una etiqueta para los valores de serie. Entender este objeto es clave para comprender cómo funcionan los métodos.
 
-Antes de empezar la presenta guía no necesita instalación de ningun tipo. En este caso usaremos \href{https://colab.research.google.com/notebooks/intro.ipynb\#recent=true}{Colab}
+Antes de empezar la presenta guía presentaremos a Colab un entorno de desarrollo que no necesita instalación de ningún tipo. En este caso usaremos \href{https://colab.research.google.com/notebooks/intro.ipynb\#recent=true}{Colab}
 
 \hypertarget{quuxe9-es-colab}{%
 \section{Qué es Colab}\label{quuxe9-es-colab}}
@@ -151,17 +155,19 @@ Colaboratory, o Colab es un entorno de desarrollo que google a puesto para el us
 \hypertarget{quuxe9-es-la-gpu}{%
 \subsection{Qué es la GPU}\label{quuxe9-es-la-gpu}}
 
-La GPU es una unidad de procesamiento de Gráficos que tienen la capacidad de hacer varias tareas de forma simultánea, ya que las imágenes en HD no dejan de ser la unión de matrices de datos\citep{DescripcionGPU}. La CPU realiza cálculos de forma secuencial, es decir, uno a la vez. Es posible incrementar núcleos adicionales para que pueda llevar a cabo dos, cuatro, ocho, dieciséis o más operaciones a la vez. Pero estos núcleos adicionales aumentan el precio de forma exponencial.
+La GPU es una unidad de procesamiento de Gráficos que tienen la capacidad de hacer varias tareas de forma simultánea, ya que las imágenes en HD no dejan de ser la unión de matrices de datos \citep{DescripcionGPU}. La CPU realiza cálculos de forma secuencial, es decir, uno a la vez. Es posible incrementar núcleos adicionales para que pueda llevar a cabo dos, cuatro, ocho, dieciséis o más operaciones a la vez. Pero estos núcleos adicionales aumentan el precio de forma exponencial.
 
 \hypertarget{quuxe9-es-la-tpu}{%
 \subsection{Qué es la TPU}\label{quuxe9-es-la-tpu}}
 
-Una unidad de procesamiento \textbf{tensorial} o TPU (del inglés tensor processing unit) es un circuito integrado de aplicación específica y acelerador de IA desarrollado por Google para el aprendizaje automático con redes neuronales artificiales y más específicamente optimizado para usar TensorFlow\citep{DescripcionTPU}. La TPU es entre 25 y 80 veces más eficiente para la realización de cálculos que las unidades de procesamiento normal (CPU y GPU).
+Una unidad de procesamiento \textbf{tensorial} o TPU (del inglés tensor processing unit) es un circuito integrado de aplicación específica y acelerador de IA desarrollado por Google para el aprendizaje automático con redes neuronales artificiales y más específicamente optimizado para usar TensorFlow \citep{DescripcionTPU}. La TPU es entre 25 y 80 veces más eficiente para la realización de cálculos que las unidades de procesamiento normal (CPU y GPU).
 
 \hypertarget{video-presentaciuxf3n-colab}{%
 \subsection{Video presentación Colab}\label{video-presentaciuxf3n-colab}}
 
-El video se subira el 07 sep 2020
+\textbf{¿Qué es Colab? parte 1/2 (Uso de recursos)}
+
+\textbf{¿Qué es Colab? parte 2/2 (Presentación de Colab)}
 
   \bibliography{book.bib,packages.bib}
 

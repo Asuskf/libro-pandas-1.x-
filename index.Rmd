@@ -12,46 +12,46 @@ description: "Libro de apoyo para el curso Pandas-1.x en español."
 
 # Introducción
 
-Pandas es una librería para creación y manipulación de datos con Python. Está librería manipula datos tabulares en filas y columnas cómo encontrarías en una base de datos o en una hoja de cálculo. Pandas es aprovechado por: **Científicos de datos, analistas, programadores, ingenieros** que lo usan para modelar sus datos.
+Pandas es una librería usanda en la creación y manipulación de datos con Python. Es empleada para manipular información tabular (filas y columnas) cómo encontrarías en una base de datos o en una hoja de cálculo, es aprovechado por **Científicos de datos, analistas, programadores, ingenieros** que lo usan en el modelado de datos.
 
-Pandas se limita a **"datos pequeños"** (datos que pueden caber en la memoria de una sola máquina). Sin embargo, la sintaxis y las operaciones se han adoptado o inspirado a otros proyectos: PySpark, Dask, Modin, cuDF, Baloo, Dexplo, Tabel, StaticFrame, entre otros. 
+Pandas se limita a **"datos pequeños"** (datos que pueden caber en la memoria de una sola máquina). Sin embargo, la sintaxis y las operaciones se han adoptado o inspirado a otros proyectos: PySpark, Dask, Modin, cuDF, Baloo, Dexplo, Tabel, StaticFrame, etc. 
 
 ## Para quién es esta guia
 
-Esta guía fue pensada en principiantes de habla hispana que estén empezando en el mundo de la ciencia de datos. El presente libro tiene la intención de dotar al principiante de los conocimientos necesarios para manipular y analizar sus datos con una herramienta potente y de fácil uso como es Pandas.
+Esta guía fue pensada en principiantes de habla hispana que estén empezando en el mundo de la ciencia de datos. El presente libro tiene la intención de dotar al principiante de los conocimientos necesarios para manipular y analizar datos con una herramienta potente y de fácil uso como es Pandas.
 
 La presente guía tiene más de 50 ejercicios que van de básico a intermedio con los cuales el lector podrá poner en práctica e interiorizar lo aprendido. Para una mejor comprensión cada ejercicio se detalla pasos a paso.
 
 ## Qué cubre esta guía
-* **Capítulo 1, Introducción:** Descripción de lo que tiene el libro y para quien va dirigido.
+* **Capítulo 1. Introducción:** Descripción de lo que tiene el libro y para quien va dirigido.
 
-* **Capítulo 2, Fundamentos de Pandas:** Presenta la anatomía y el vocabulario utilizado para identificar las dos estructuras de datos principales de Pandas, la Serie y el DataFrame con sus respectivos métodos.
+* **Capítulo 2. Fundamentos de Pandas:** Presenta la anatomía y el vocabulario utilizado para identificar las dos estructuras de datos principales de Pandas, la Serie y el DataFrame con sus respectivos métodos.
 
-* **Capítulo 3, Operaciones esenciales en un Dataframe:** Se centra en las operaciones comunes que se realizan durante el análisis de datos.
+* **Capítulo 3. Funciones esenciales en un Dataframe:** Se centra en las operaciones comunes que se realizan durante el análisis de datos.
 
-* **Capítulo 4, Importación y creación de Dataframes:** Analiza las diversas formas de importar datos y crea DataFrames.
+* **Capítulo 4. Importación y creación de Dataframes:** Analiza las diversas formas de importar datos y crea DataFrames.
 
-* **Capítulo 5, Empezando con la ciencia de datos:** Presenta técnicas de análisis básicas que sirven para comparar números y datos categóricos. Este capítulo también demostrará técnicas de visualización comunes.
+* **Capítulo 5. Empezando con la ciencia de datos:** Presenta técnicas de análisis básicas que sirven para comparar números y datos categóricos.
 
-* **Capítulo 6, Trabajando con subconjuntos:** Cubre las muchas formas variadas y potencialmente confusas de seleccionar diferentes subconjuntos de datos.
+* **Capítulo 6. Trabajando con subconjuntos:** Cubre las muchas formas variadas y potencialmente confusas de seleccionar diferentes subconjuntos de datos.
 
-* **Capítulo 7, Filtrando los subconjuntos:** Explica varias formas de cómo seleccionar diferentes subconjuntos de datos.
+* **Capítulo 7. Filtrando los subconjuntos:** Explica varias formas de cómo seleccionar diferentes subconjuntos de datos.
 
-* **Capítulo 8, Consultas booleanas:** Consultas basadas en condiciones booleanas
+* **Capítulo 8. Consultas booleanas** 
 
-* **Capítulo 9, el uso de index en Pandas:** El uso correcto de index para evitar resultados erróneos.
+* **Capítulo 9. el uso de index en Pandas:** El uso correcto de index para evitar resultados erróneos.
 
-* **Capítulo 10, Agrupación:** Presenta métodos de agrupación y la construcción de funciones personalizadas para aplicar a diferentes grupos
+* **Capítulo 10. Agrupación:** Presenta métodos de agrupación y la construcción de funciones personalizadas para aplicar a diferentes grupos
 
-* **Capítulo 11, Ordenando el Dataframe:** Explica qué son los datos ordenados, por qué son tan importantes y que métodos pueden ser usados para transformar conjuntos de datos desordenados en ordenados.
+* **Capítulo 11. Ordenando el Dataframe:** Explica qué son los datos ordenados, por qué son tan importantes y que métodos pueden ser utilizados
 
-* **Capítulo 12, Combinando objetos Pandas:** Presenta varios métodos para combinar DataFrames y Series vertical u horizontalmente.  
+* **Capítulo 12. Combinando objetos Pandas:** Presenta varios métodos para combinar DataFrames y Series vertical u horizontalmente.  
 
-* **Capítulo 13, Trabajando con las series de tiempo:** Presenta distintos métodos para trabajar con las series de tiempo en cualquier dimensión de tiempo posible
+* **Capítulo 13. Trabajando con las series de tiempo:** Presenta distintos métodos para trabajar con las series temporales en cualquier dimensión de tiempo posible
 
-* **Capítulo 14, Visualización de datos:** Tips para crear visualizaciones estéticamente agradables usando: Pandas, Seaborn y Matplotlib
+* **Capítulo 14. Visualización de datos:** Tips para crear visualizaciones estéticamente agradables usando: Pandas, Seaborn y Matplotlib
 
-* **Capítulo 15, Test del Dataframe:**Explora los mecanismos de test de los DataFrames y los resultados que presenta Pandas.
+* **Capítulo 15. Test del Dataframe:**Explora los mecanismos de test de los DataFrames y los resultados que presenta Pandas.
 
 
 
